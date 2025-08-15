@@ -2,6 +2,7 @@
 layout: page
 title: "Phonics Plus Tracking Resource"
 permalink: /phonicsplustool/
+cover-img: "/assets/img/phonicsplusbanner"
 ---
 
 # A tool to monitor achievement and identify explicit target areas
