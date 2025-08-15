@@ -4,8 +4,8 @@ title: "Phonics Plus Tracking Resource"
 permalink: /phonicsplustool/
 ---
 
-# A tool to monitor achievement and identify explicit target areas
-### Aligned with the 'Phonics Plus' Structured-Synthetic-Phonics Program from DET
+# A tool to monitor achievement and identify explicit teaching & learning opportunities
+#### Aligned with 'Phonics Plus' program from DET (or any S.S.P program following the SATPIN sequence)
 
 <p align="center">
   <img src="{{ '/assets/img/phonicsplusbanner.png' | relative_url }}" alt="Phonics Plus Banner" />
