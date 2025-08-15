@@ -21,9 +21,8 @@ author: Aaron Johnson
 
 navbar-links:
   Projects:
-    - Phonics Plus Monitoring: "https://beautifuljekyll.com"
-    - Empty Project page: "https://www.markdowntutorial.com/"
-  
+    - Phonics Plus Tracking: "/phonicsplus"
+    - Empty Project page: "/empty-project"
 
 ################
 # --- Logo --- #
