@@ -9,7 +9,7 @@ cover-img: "/assets/img/phonicsplusbanner"
 ### Aligned with the 'Phonics Plus' Structured-Synthetic-Phonics Program from DET
 
 <p align="center">
-  <img src="assets/img/phonicsplusbanner.png" alt="Phonics Plus Banner" style="width:80%;" />
+  <img src="/assets/img/phonicsplusbanner" alt="Phonics Plus Banner" style="width:80%;" />
 </p>
 
 
