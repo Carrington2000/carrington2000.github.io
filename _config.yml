@@ -20,9 +20,9 @@ author: Aaron Johnson
 ###############################################
 
 navbar-links:
-  Project:
+  Projects:
     - Phonics Plus Monitoring: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+    - Empty Project page: "https://www.markdowntutorial.com/"
   
 
 ################
@@ -95,7 +95,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "aaronjohnson.com"
 
 # Add the website title to the title of every page
 title-on-all-pages: true
@@ -129,7 +129,7 @@ navbar-var-length: false
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-page-col: "#663465"
+page-col: "#EAEAEA"
 text-col: "#404040"
 link-col: "#008AFF"
 hover-col: "#0085A1"
