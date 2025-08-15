@@ -293,6 +293,14 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
 
+
+site-css:
+  - "/assets/css/bootstrap.min.css"
+  - "/assets/css/bootstrap-social.css"
+  - "/assets/css/beautifuljekyll.css"
+  - "/assets/css/custom.css?v=2"   # <-- keep last; ?v=2 busts cache
+
+
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
 

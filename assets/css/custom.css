@@ -1,10 +1,10 @@
 /* Base font for entire site */
 body {
-  font-family: 'Inter', sans-serif;
-  font-size: 16px;           /* Comfortable reading size */
-  font-weight: 400;          /* Normal weight */
-  line-height: 1.6;          /* Better readability */
-  color: #222;               /* Darker than default grey for contrast */
+  font-family: 'Inter', sans-serif !important; /* add !important */
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #222;
 }
 
 /* Headings – modern, bold, clean */
