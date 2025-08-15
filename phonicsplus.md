@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Phonics Plus Monitor"
-permalink: /phonics-plus-monitor/
+permalink: /phonicsplustool/
 ---
 
 # Phonics Plus
