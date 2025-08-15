@@ -11,8 +11,6 @@ permalink: /phonicsplustool/
   <img src="{{ '/assets/img/phonicsplusbanner.png' | relative_url }}" alt="Phonics Plus Banner" />
 </p>
 
-
-
 ## What can you do with this tool?
 - Option 1
 - Option 2
