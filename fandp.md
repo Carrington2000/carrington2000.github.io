@@ -1,10 +1,10 @@
 ---
 layout: page
-title: "Fountas & Pinnel Tracker"
+title: "Fountas & Pinnell Tracker"
 permalink: /fandp/
 ---
 
-# Fountas & Pinnel Benchmark Tracking
+# Fountas & Pinnell Benchmark Tracking
 ### A resource to monitor reading achievement using Fountas & Pinnell Benchmark Kit (Version x).
 ###### (Not affiliated with Fountas & Pinnell Literacy or Heinemann)
 
