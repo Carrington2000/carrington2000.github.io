@@ -35,3 +35,11 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+.dropdown-menu {
+  min-width: max-content; /* Fits to the longest menu item */
+  white-space: nowrap;    /* Prevents line breaks */
+}
+.navbar-nav .nav-link {
+  white-space: nowrap;
+}
