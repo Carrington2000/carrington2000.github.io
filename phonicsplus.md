@@ -2,15 +2,16 @@
 layout: page
 title: "Phonics Plus Tracking Resource"
 permalink: /phonicsplustool/
-cover-img: "/assets/img/phonicsplusbanner"
+cover-img: "/assets/img/phonicsplusbanner.png"
 ---
 
 # A tool to monitor achievement and identify explicit target areas
 ### Aligned with the 'Phonics Plus' Structured-Synthetic-Phonics Program from DET
 
 <p align="center">
-  <img src="/assets/img/phonicsplusbanner" alt="Phonics Plus Banner" style="width:80%;" />
+  <img src="{{ '/assets/img/phonicsplusbanner.png' | relative_url }}" alt="Phonics Plus Banner" />
 </p>
+
 
 
 This is my Phonics Plus Page. 
