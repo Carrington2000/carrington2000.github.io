@@ -43,3 +43,26 @@ a:hover {
 .navbar-nav .nav-link {
   white-space: nowrap;
 }
+
+
+/* Keep dropdown items on one line and let the menu widen to fit */
+.navbar-custom .nav-item.dropdown .dropdown-menu {
+  width: auto !important;
+  min-width: max-content !important; /* fit to longest item */
+  white-space: nowrap !important;
+  word-break: normal !important;
+}
+
+/* Prevent wrapping inside each item */
+.navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {
+  white-space: nowrap !important;
+}
+
+/* Allow navbar container to accommodate wider dropdowns */
+@media (min-width: 1200px) {
+  .navbar-custom .container,
+  .navbar-custom .container-fluid {
+    max-width: none !important; /* let navbar stretch wider */
+  }
+}
+
