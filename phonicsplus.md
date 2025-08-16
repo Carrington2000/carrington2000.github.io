@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Phonics Plus Tracking Resource"
+title: "Phonics Plus Dashboard"
 permalink: /phonicsplustool/
 ---
 
