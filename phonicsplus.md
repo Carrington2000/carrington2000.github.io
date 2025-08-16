@@ -4,8 +4,8 @@ title: "Phonics Plus Tracking Resource"
 permalink: /phonicsplustool/
 ---
 
-# A tool to monitor achievement and identify explicit teaching & learning opportunities
-### Aligned with 'Phonics Plus' from DET 
+# Monitor decoding achievement and identify explicit teaching & learning opportunities
+### Aligns with 'Phonics Plus' from DET 
 ###### (or any S.S.P.P following the SATPIN sequence)
 
 <p align="center">
@@ -23,10 +23,22 @@ permalink: /phonicsplustool/
 - Ensure students have mastered key pre-code high-frequency words for a strong start in reading. 
 
 
-| Word List                                 | Flashcards                                |
-| ----------------------------------------- | ----------------------------------------- |
-| Download                                  | Download                                  |
-|  ![Word List]({{ site.baseurl }}/assets/img/wordlist.png){:width="300"} | ![Flashcards]({{ site.baseurl }}/assets/img/flashcards.png){:width="300"}|
+  <!-- Column 1 -->
+  <div style="flex: 1;">
+    <h3>Word List</h3>
+    <img src="{{ site.baseurl }}/assets/img/wordlist.png" alt="Word List" style="width: 100%; height: auto; max-width: 400px;">
+    <br>
+    <a href="/assets/files/wordlist.pdf" class="btn btn-primary" download>Download</a>
+  </div>
+
+  <!-- Column 2 -->
+  <div style="flex: 1;">
+    <h3>Flashcards</h3>
+    <img src="{{ site.baseurl }}/assets/img/flashcards.png" alt="Flashcards" style="width: 100%; height: auto; max-width: 400px;">
+    <br>
+    <a href="/assets/files/flashcards.pdf" class="btn btn-primary" download>Download</a>
+  </div>
+</div>
 
 
 ## Watch how to get started
