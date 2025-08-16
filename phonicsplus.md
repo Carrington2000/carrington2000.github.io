@@ -22,6 +22,13 @@ permalink: /phonicsplustool/
 - Group or pair students at similar achievement levels to maximise peer learning opportunities.
 - Ensure students have mastered key pre-code high-frequency words for a strong start in reading. 
 
+
+| Word List                                 | Flashcards                                |
+| ----------------------------------------- | ----------------------------------------- |
+| Download                                  | Download                                  |
+|  <img src="/assets/img/wordlist.png" alt="Word List" width="200"> | Word List  | <img src="/assets/img/flashcards.png" alt="Flashcard" width="200"> | Word List  |
+
+
 ## Watch how to get started
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=DsIudnEbD4oYo2UO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
