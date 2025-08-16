@@ -29,7 +29,7 @@ permalink: /phonicsplustool/
     <h3>Word List</h3>
     <img src="{{ site.baseurl }}/assets/img/wordlist.png" alt="Word List" style="width: 100%; height: auto; max-width: 400px;">
     <br>
-    <a href="/assets/files/wordlist.pdf" class="btn btn-primary" download>Download</a>
+   <a href="{{ '/assets/files/wordlist.pdf' | relative_url }}" class="btn btn-primary" download>Download</a>
   </div>
 
   <!-- Column 2 -->
