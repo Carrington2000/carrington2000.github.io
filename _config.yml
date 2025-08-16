@@ -9,6 +9,12 @@
 # --- Required options --- #
 ############################
 
+
+# Site settings
+url: "https://carrington2000.github.io"
+baseurl: ""   # Leave empty for a user site (not a project site)
+
+
 # Name of website
 title: AARON JOHNSON
 
