@@ -27,9 +27,13 @@ author: Aaron Johnson
 ###############################################
 
 navbar-links:
-  Projects:
+  Literacy:
     - Phonics Plus Tool: "/phonicsplustool/"
     - Fountas & Pinnell Tracker: "/fandp/"
+  Numeracy:
+    - Placeholder: "/numbertalks/"
+  Philosophy:
+  
 
 ################
 # --- Logo --- #

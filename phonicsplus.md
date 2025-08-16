@@ -37,7 +37,7 @@ permalink: /phonicsplustool/
     <h3>Flashcards</h3>
     <img src="{{ site.baseurl }}/assets/img/flashcards.png" alt="Flashcards" style="width: 100%; height: auto; max-width: 400px;">
     <br>
-    <a href="/assets/files/flashcards.pdf" class="btn btn-primary" download>Download</a>
+    <a href="{{ '/assets/files/flashcards.pdf' | relative_url }}" class="btn btn-primary" download>Download</a>
   </div>
 </div>
 
