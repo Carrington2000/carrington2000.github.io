@@ -4,9 +4,9 @@ title: "Phonics Plus Tracking Resource"
 permalink: /phonicsplustool/
 ---
 
-# Monitor decoding achievement and identify explicit teaching & learning opportunities
+# Monitor student achievement in decoding and identify explicit teaching & learning opportunities
 ### Aligns with 'Phonics Plus' from DET 
-###### (or any S.S.P.P following the SATPIN sequence)
+###### (or any SATPIN sequenced S.S.P.P)
 
 <p align="center">
   <img src="{{ '/assets/img/phonicsplusbanner.png' | relative_url }}" alt="Phonics Plus Banner" />
