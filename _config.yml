@@ -30,6 +30,9 @@ navbar-links:
   Literacy:
     - Phonics Plus Dashboard: "/phonicsplustool/"
     - Fountas & Pinnell Tracker: "/fandp/"
+    - NAPLAN Writing Moderation: "/writingmoderation/"
+    - South Australian Spelling Test Analysis: "/sast/"
+    - Spelling Test Tracking: "/stt/"
   Numeracy:
     - Placeholder: "/numbertalks/"
   Philosophy: "philosophy/"
