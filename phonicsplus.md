@@ -22,7 +22,8 @@ permalink: /phonicsplustool/
 - Group or pair students at similar achievement levels to maximise peer learning opportunities.
 - Ensure students have mastered key pre-code high-frequency words for a strong start in reading. 
 
-
+# Resources
+<div class="flex-columns" style="display: flex; gap: 20px; text-align: center;">
   <!-- Column 1 -->
   <div style="flex: 1;">
     <h3>Word List</h3>
@@ -39,6 +40,7 @@ permalink: /phonicsplustool/
     <a href="/assets/files/flashcards.pdf" class="btn btn-primary" download>Download</a>
   </div>
 </div>
+
 
 
 ## Watch how to get started
