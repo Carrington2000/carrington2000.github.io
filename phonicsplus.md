@@ -26,7 +26,7 @@ permalink: /phonicsplustool/
 | Word List                                 | Flashcards                                |
 | ----------------------------------------- | ----------------------------------------- |
 | Download                                  | Download                                  |
-|  ![Word List]({{ site.baseurl }}/assets/img/wordlist.png){:width="200"} | ![Flashcards]({{ site.baseurl }}/assets/img/flashcards.png){:width="200"}|
+|  ![Word List]({{ site.baseurl }}/assets/img/wordlist.png){:width="300"} | ![Flashcards]({{ site.baseurl }}/assets/img/flashcards.png){:width="300"}|
 
 
 ## Watch how to get started
