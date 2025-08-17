@@ -309,7 +309,6 @@ plugins:
 
 
 site-css:
-  - "/assets/css/bootstrap.min.css"
   - "/assets/css/bootstrap-social.css"
   - "/assets/css/beautifuljekyll.css"
   - "/assets/css/custom.css?v=3"   # <-- keep last; ?v=2 busts cache
