@@ -13,9 +13,12 @@ permalink: /mathdwnld/
     <a href="{{ '/assets/files/Ochre Download Tool.zip' | relative_url }}" class="btn btn-primary" download>Download</a>
   </div>
 
-<p align="center">
-  <img src="{{ '/assets/img/mthsdwnld.png' | relative_url }}" alt="Maths Downloader" />
-</p>
+<div>
+    <p align="center">
+    <img src="{{ '/assets/img/mthsdwnld.png' | relative_url }}" alt="Maths Downloader" />
+    </p>
+  </div>
+
 
 
 <p> Note 1: Requires your own account for Ochre Education</p>
