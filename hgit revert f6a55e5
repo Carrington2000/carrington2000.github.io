@@ -1,0 +1,192 @@
+[33m8c361e0[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31muserpages/main[m[33m)[m fix
+[33m45f6d56[m restorer
+[33mb8edae1[m return
+[33mac2061f[m del
+[33mf6a55e5[m div3
+[33m0fb95cd[m dv2
+[33mca02dac[m dv
+[33m1b64292[m cntr
+[33mefde918[m tst
+[33m573ad6a[m divs
+[33m1de8079[m tool
+[33mdf3d189[m link
+[33m0253d82[m downloader
+[33meaef932[m mths
+[33mc8f1236[m maths
+[33me2271a2[m nav
+[33m20bd9e9[m names
+[33m00a23cc[m txt
+[33md777b38[m nav
+[33m756bfbc[m last
+[33m702f571[m push
+[33md4847cc[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m wordlsit
+[33m1e515b9[m flex2
+[33ma9c612a[m flex
+[33m2b603c0[m three
+[33m94805bb[m table2
+[33mb906983[m table
+[33m17c9e7e[m table
+[33mcb1cc57[m tidy
+[33me6124b5[m clean
+[33me801ceb[m day6
+[33m184803c[m Day15
+[33m815b2b7[m sspp
+[33m0654c4d[m Day14
+[33m95936a7[m Day13
+[33m6cdebfc[m Day12
+[33m3461122[m day1
+[33m3706029[m try
+[33m60c6d80[m imgg
+[33mfb3178c[m img
+[33m840bf4b[m first img
+[33me5b45c5[m response
+[33m37e784c[m tool
+[33me4e51f4[m da
+[33m09b664d[m nav2
+[33m7e4fc34[m phon
+[33mee4621e[m menu
+[33m279eb73[m del
+[33mec0b0d4[m nav
+[33m7bffaa7[m comma
+[33m4dceb8a[m home 2
+[33mbe46555[m home txt
+[33m59b8836[m log7
+[33mce4d9dd[m log6
+[33m4009dea[m log5
+[33m43d5314[m log3
+[33mbe8b6dd[m log2
+[33mefc9c7f[m logo
+[33m84930c4[m footer colour
+[33m28fbcc1[m colour
+[33m6943152[m CAPS
+[33mb2a841e[m Home
+[33mf165bc6[m Inter 5
+[33m292a066[m Inter 4
+[33m5327c76[m Inter 3
+[33mcdb8d8b[m Inter Full
+[33maefe10f[m Fonts
+[33m6ef97fb[m Home
+[33m6ddd15b[m Home text
+[33m4e25fd0[m home layout
+[33m06a83dc[m four
+[33m1ab9256[m Three
+[33mcd3ca02[m Home Try 2
+[33m7a0b85e[m Home Text
+[33m11c46ff[m Background Change
+[33mbe399a8[m First proper
+[33m9f3089f[m All in One
+[33m0a977e2[m Test commit to verify GitHub connection
+[33m476d4a4[m Allow development on Windows from Gemfile (#1390)
+[33mb7ab526[m remove hardcoding of social-share-section and expose reddit option in config file; fixes #1440
+[33mfad7e83[m Update CHANGELOG
+[33m4d26620[m Add author to RSS feed (#1442)
+[33me6c9762[m Update _config.yml
+[33mf29a9ee[m Update CHANGELOG.md
+[33m741acb7[m Add Strava social network link (#1443)
+[33m46fc6bd[m Add margin-bottom to social media links (#1441)
+[33m102b97f[m Update CHANGELOG.md
+[33mf052a6c[m fix 1452: cause tables to scroll when wide
+[33m224edc4[m Merge branch 'master' of https://github.com/daattali/beautiful-jekyll
+[33m39cfbf1[m add example to show how to use details HTML tag with markdown inside itwq
+[33mb1b667e[m Bluesky icon in font awesome (#1402)
+[33m3920be6[m ci(workflow): ensure relative_url is used (#1374)
+[33ma7ca10e[m update changelog
+[33m716798e[m feat(social-links): allow subreddit (#1371)
+[33me6fc968[m move search to its own file; fixes 1284
+[33mac7d602[m escpe backslash in search results; fixes #1279
+[33ma5b9bed[m change twitter icon to X; fixes #1193
+[33m4a98949[m upgrade fontawesoem to 6.5.2; fixes 1330
+[33mdd16f4a[m readme: add next step to read jekyll docs
+[33mb57d3d4[m add missing semicolons in css
+[33mc07c3ea[m Use CSS variables; fixes #661 (#1312)
+[33m50de2a0[m Update CHANGELOG.md
+[33m3e4cf2a[m feat(social): add untappd (#1307)
+[33m49b2d8b[m add mathjax YAML parameter to support mathjax expressions; closes #195
+[33mfca5813[m Update CHANGELOG.md
+[33mc43989d[m Added Whatsapp to social network (#1299)
+[33m1192868[m github action: update checkout to latest v4
+[33m40e5677[m Fix GitHub Actions for Jekyll 4.x (#1276)
+[33m18fda2d[m Relax version constraint for kramdown to support latest version of github-pages (#1290)
+[33me5ababb[m Updated Search Bar  (#1265)
+[33m19888f7[m Update _config.yml
+[33mb71c491[m Add a title-on-all-pages site option (#1272)
+[33m403fb13[m Add itch.io social network link to the commented out entries (#1268)
+[33mca225cf[m Yelp url bug fix (#1259) (#1260)
+[33m6e0120c[m add support for favicon.ico file; related to #1234 and #1249
+[33m938b912[m update default youtube string in footer
+[33m48a2158[m Update README.md
+[33mcf95491[m fix layouy bug where code blocks dont scroll horizontally; fixes #1235
+[33m068bf0f[m change role=main to main tag
+[33m9424f6d[m simplify header html; alternative to #1227
+[33mff34170[m bug fix: escape characters in url in searchjson; fixes #1232
+[33m8854d96[m page naviation: move arrow to correct location
+[33m158672a[m post navigation: move arrow to correct location
+[33mba46ef8[m Made the footer stick to the bottom; fixes #576 (#1226)
+[33m6c5187d[m Add support for author in YAML parameters (#1220)
+[33ma206f70[m use slash instead of empty string for absolute url, try to fix links in 'jekyll build'
+[33m16af2d1[m Update CHANGELOG.md
+[33md8e099d[m pagination: change arrows to fontawesome and dont show text on small screens
+[33md35d275[m Delete robots.txt
+[33mabbe754[m Update robots.txt
+[33m94fdedb[m Add robots.txt (#1224)
+[33mf5c7b99[m fix google scholar link construction (#1187) (#1189)
+[33mdec4390[m Add Bluesky to social network links (#1218)
+[33m423ce53[m Add sponsor to readme
+[33m7d1c1b0[m add support for header-extra parameter
+[33m54c723e[m remove duplicate css
+[33m4903135[m Update README.md
+[33ma9648aa[m readme: link to sample markdown post
+[33m2ff087d[m Update CHANGELOG.md
+[33md102642[m Add files via upload
+[33mc11eb4e[m Update 2020-02-28-sample-markdown.md
+[33m6ce1f82[m Rename 2020-02-28-test-markdown.md to 2020-02-28-sample-markdown.md
+[33m7d346a0[m remove unneeded images
+[33m90a888c[m Add GitLab to the list of social media sources (#1168)
+[33m5d009e8[m fixed bug where hovering over search results showed the string {desc}; fixes #1156
+[33m1364880[m Update issue_template.md
+[33mb2aa2cf[m Allow changing the order of the social network links that appear in the footer; fixes #1152
+[33m175115a[m Update README.md
+[33ma8d9bac[m Update beautiful-jekyll-theme.gemspec
+[33m4349a6c[m Update beautiful-jekyll-theme.gemspec
+[33m1758870[m be explicit about jekyll version to fix github action
+[33mab8e8d7[m google analytics message: add padding around
+[33m05f56a8[m bump hotfix version to allow gems to use any jekyll version and to use webrick in runtime rather than only in dev
+[33ma87de50[m Merge branch 'master' of https://github.com/daattali/beautiful-jekyll
+[33m5d86c59[m update gemspec to version 6
+[33m8e23791[m Update CHANGELOG.md
+[33m9297882[m format changelog for v6
+[33m20103f7[m Merge branch 'master' of https://github.com/daattali/beautiful-jekyll
+[33medb4073[m show warning message if old Universal Analytics is used
+[33mbbbf0e2[m Update README.md
+[33m621edf8[m Update README.md
+[33m3dd511a[m Update README.md
+[33m534c907[m add webrick to gemspec because it isnt included in ruby3 anymore
+[33m76509fe[m Update beautifuljekyll.js
+[33m737e7f8[m Update base.html
+[33mf13fc8b[m Update LICENSE
+[33mea0abf5[m update gem versions to what GitHub Pages uses
+[33m179c3c1[m update readme
+[33m47e87ef[m replace var with let or const in javascript; fixes #1048
+[33m3e6689f[m Update README.md
+[33mc4d5186[m Update README.md
+[33m25d2117[m Update README.md
+[33m5c42a4f[m Update README.md
+[33mba6869c[m Update README.md
+[33mb0343b6[m Update README.md
+[33m95a4002[m Update README.md
+[33m1bf5e2d[m remove sponsor
+[33m2ab9d0c[m Add files via upload
+[33madd3a91[m Update README.md
+[33mf8627d6[m new github workflow instructions
+[33m85bee90[m Update README.md
+[33m56c364d[m Delete index.html
+[33m4453986[m remove cover image
+[33m8c14933[m Discord supports old and new invite code styles (#1135)
+[33mcdfd011[m google analytics config setting: encourage gtag, discourage google_analytics (fixes #1096)
+[33me1facea[m update actions/checkout to v3 because of node deprecation warning; fixes #1099
+[33m848d04c[m trigger GH actions
+[33m6ad1fcd[m replaced var with const (#1049)
+[33m685cf73[m Add `navbar-var-length` config parameter (#1011)
+[33m0859158[m more readable format for config file
+[33me613426[m Update CHANGELOG.md
+[33m
