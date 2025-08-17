@@ -156,24 +156,36 @@
   text-decoration: none;
 }
 /* ==========================================================================
- PRINT STYLES
- ========================================================================== */
-.staticman-comments @media print {
-  /*
-   Hide the following elements on print
+   PRINT STYLES
    ========================================================================== */
-.staticman-comments [hidden] {
-    display: none;
-  }
-.staticman-comments .masthead, .staticman-comments .toc, .staticman-comments .page__share, .staticman-comments .page__related, .staticman-comments .pagination, .staticman-comments .ads, .staticman-comments .page__footer, .staticman-comments .page__comments-form, .staticman-comments .author__avatar, .staticman-comments .author__content, .staticman-comments .author__urls-wrapper, .staticman-comments .nav__list, .staticman-comments .sidebar, .staticman-comments .adsbygoogle {
+@media print {
+
+  /* Hide various UI elements when printing comments */
+  .staticman-comments [hidden] {
     display: none !important;
-    height: 1px !important;
+  }
+
+  .staticman-comments .masthead,
+  .staticman-comments .toc,
+  .staticman-comments .page__share,
+  .staticman-comments .page__related,
+  .staticman-comments .pagination,
+  .staticman-comments .ads,
+  .staticman-comments .page__footer,
+  .staticman-comments .page__comments-form,
+  .staticman-comments .author__avatar,
+  .staticman-comments .author__content,
+  .staticman-comments .author__urls-wrapper,
+  .staticman-comments .nav__list,
+  .staticman-comments .sidebar,
+  .staticman-comments .adsbygoogle {
+    display: none !important;
+    height: 0 !important; /* optional */
   }
 }
-/*
- Post pagination navigation links
- ========================================================================== */
-.staticman-comments .page__comments + .staticman-comments .pagination {
+
+/* Post pagination navigation links (outside of print) */
+.staticman-comments .page__comments + .pagination {
   margin-top: 2em;
   padding-top: 2em;
   border-top: 1px solid #f2f3f3;
