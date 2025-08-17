@@ -34,7 +34,7 @@ navbar-links:
     - South Australian Spelling Test Analysis: "/sast/"
     - Spelling Test Tracking: "/stt/"
   Numeracy:
-    - OCHRE Maths Bulk Downloader: "/mthsdwnld/"
+    - OCHRE Maths Bulk Downloader: "/mathdwnld/"
   Philosophy: "philosophy/"
   
 
