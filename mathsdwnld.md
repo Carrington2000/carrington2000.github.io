@@ -12,6 +12,7 @@ permalink: /mathdwnld/
   <div style="flex: 1;">
     <a href="{{ '/assets/files/Ochre Download Tool.zip' | relative_url }}" class="btn btn-primary" download>Download</a>
   </div>
+</div>
 
 <div>
     <p align="center">
