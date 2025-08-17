@@ -5,7 +5,7 @@ permalink: /mathdwnld/
 ---
 
 ## Download Maths resources from Ochre Education*
-### Select multiple units and download all in one as local PowerPoint files.* 
+### Select multiple units to download all in a single click as local PowerPoint files.* 
 
 <div class="flex-columns" style="display: flex; gap: 20px; text-align: center;">
   <!-- Column 1 -->
