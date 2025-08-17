@@ -314,7 +314,3 @@ site-css:
   - "/assets/css/beautifuljekyll.css"
   - "/assets/css/custom.css?v=3"   # <-- keep last; ?v=2 busts cache
 
-
-# Beautiful Jekyll / Dean Attali
-# 2fc73a3a967e97599c9763d05e564189
-
