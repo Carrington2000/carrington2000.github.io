@@ -66,6 +66,18 @@ a:hover {
   }
 }
 
+@media (min-width: 1200px) {
+  .navbar-custom .nav-item.dropdown .dropdown-menu {
+    width: auto !important;
+    min-width: max-content !important;
+    white-space: nowrap !important;
+    word-break: normal !important;
+  }
+  .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {
+    white-space: nowrap !important;
+  }
+}
+
 /* Universal responsive video wrapper */
 .video-embed {
   position: relative;
