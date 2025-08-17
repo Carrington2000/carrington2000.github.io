@@ -10,13 +10,17 @@ permalink: /mathdwnld/
 <div class="flex-columns" style="display: flex; gap: 20px; text-align: center;">
   <!-- Column 1 -->
   <div style="flex: 1;">
-    <a href="{{ '/assets/files/Ochre-Download-Tool.zip' | relative_url }}" class="btn btn-primary" download>Download</a>
+    <a href="{{ '/assets/files/Ochre Download Tool.zip' | relative_url }}" class="btn btn-primary" download>Download</a>
   </div>
 </div>
 
-<div style="text-align:center; margin-top: 16px;">
-   <img src="{{ '/assets/img/mthsdwnld.png' | relative_url }}" alt="Maths Downloader" />
-</div>
+<div>
+    <p align="center">
+    <img src="{{ '/assets/img/mthsdwnld.png' | relative_url }}" alt="Maths Downloader" />
+    </p>
+  </div>
+
+
 
 <p> Note 1: Requires your own account for Ochre Education</p>
 <p> Note 2: Limited to Maths Review, Slides, Worksheet and Reteach resources</p>
