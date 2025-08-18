@@ -125,7 +125,7 @@ body { font-family: var(--body-font); }
 /* Header / Navbar “clean” look */
 .navbar-custom .navbar-brand {
   font-family: var(--header-font);
-  font-weight: 500;          /* 400–500 feels crisp without shouting */
+  font-weight: 600;          /* 400–500 feels crisp without shouting */
   font-size: 2.188rem;       /* keep existing size; tweak if you like */
   letter-spacing: 0;         /* reduce the “blocky” feel */
   text-transform: none;      /* remove all-caps if you prefer */
@@ -135,7 +135,7 @@ body { font-family: var(--body-font); }
 .navbar-custom .navbar-nav .nav-link {
   font-family: var(--header-font);
   font-weight: 400;          /* lighter links */
-  font-size: 1.800rem; 
+  font-size: 1.500rem; 
   letter-spacing: 0.01em;    /* gentle spacing */
   text-transform: none;      /* or keep uppercase if you like */
   opacity: 0.9;              /* subtle softness */
