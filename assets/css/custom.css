@@ -162,7 +162,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-logo {
-  height: 50px;
+  height: 40px;
 
   @media (min-width: 992px) {
     height: 60px;
