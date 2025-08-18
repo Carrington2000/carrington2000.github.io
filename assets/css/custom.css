@@ -160,3 +160,11 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
   letter-spacing: -0.01em;   /* tiny negative tracking tightens big headings */
 }
+
+.navbar-logo {
+  height: 50px;
+
+  @media (min-width: 992px) {
+    height: 60px;
+  }
+}
