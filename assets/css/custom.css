@@ -135,6 +135,7 @@ body { font-family: var(--body-font); }
 .navbar-custom .navbar-nav .nav-link {
   font-family: var(--header-font);
   font-weight: 400;          /* lighter links */
+  font-size: 1.800rem; 
   letter-spacing: 0.01em;    /* gentle spacing */
   text-transform: none;      /* or keep uppercase if you like */
   opacity: 0.9;              /* subtle softness */

@@ -35,8 +35,6 @@ navbar-links:
     - Spelling Test Tracking: "/stt/"
   Numeracy:
     - OCHRE Maths Bulk Downloader: "/mathdwnld/"
-  Philosophy: "philosophy/"
-  
 
 ################
 # --- Logo --- #
