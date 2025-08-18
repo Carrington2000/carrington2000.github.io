@@ -20,7 +20,7 @@ baseurl: ""   # Leave empty for a user site (not a project site)
 title: AARON JOHNSON
 
 # Your name to show in the footer
-author: aaron.johnson@education.vic.gov.au
+author: "Contact: aaron.johnson@education.vic.gov.au"
 
 ###############################################
 # --- List of links in the navigation bar --- #
