@@ -4,8 +4,8 @@ title: "Ochre Maths Downloader"
 permalink: /mathdwnld/
 ---
 
-## Download Maths resources from Ochre Education*
-### Select multiple units to download all in a single click as local PowerPoint files.* 
+<h2>Batch download Maths resources from Ochre Education</h2>
+<h3>Download multiple units as local PowerPoint files in a single click*</h3> 
 
 <div class="flex-columns" style="display: flex; gap: 20px; text-align: center;">
   <!-- Column 1 -->
@@ -26,4 +26,4 @@ permalink: /mathdwnld/
   <li>Note 2: Limited to Maths Daily Review, Lesson Slides & Worksheets</li>
 </ul>
 
-<h2>>Watch how to use the downloader tool</h2>
+<h2>Watch how to use the downloader tool</h2>
