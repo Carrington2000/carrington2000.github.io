@@ -107,3 +107,7 @@ a:hover {
     flex-direction: column;
   }
 }
+
+.center-text {
+  text-align: center;
+}
