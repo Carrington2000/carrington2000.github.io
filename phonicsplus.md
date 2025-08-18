@@ -17,13 +17,13 @@ permalink: /phonicsplustool/
 <h2>What can you do with this tool?</h2>
 <ul class="lead">
     <li>Instantly see a clear snapshot of each student’s decoding knowledge, saving time on assessment.</li>
-    <li>- Confidently track individual progress to inform timely teaching decisions.</li>
-    <li>- Stay effortlessly updated on priority students without extra admin work.</li>
-    <li>- Pinpoint each learner’s strengths and growth areas to guide targeted instruction.</li>
-    <li>- Match students with the most appropriate decodable readers to accelerate progress.</li>
-    <li>- Spot gaps early and act quickly with focused intervention strategies.</li>
-    <li>- Group or pair students at similar achievement levels to maximise peer learning opportunities.</li>
-    <li>- Ensure students have mastered key pre-code high-frequency words for a strong start in reading.</li>
+    <li>Confidently track individual progress to inform timely teaching decisions.</li>
+    <li>Stay effortlessly updated on priority students without extra admin work.</li>
+    <li>Pinpoint each learner’s strengths and growth areas to guide targeted instruction.</li>
+    <li>Match students with the most appropriate decodable readers to accelerate progress.</li>
+    <li>Spot gaps early and act quickly with focused intervention strategies.</li>
+    <li>Group or pair students at similar achievement levels to maximise peer learning opportunities.</li>
+    <li>Ensure students have mastered key pre-code high-frequency words for a strong start in reading.</li>
 </ul>
 
 <h2>Resources</h2>
@@ -47,7 +47,7 @@ permalink: /phonicsplustool/
 
 
 
-<h2>>Watch how to get started</h2>
+<h2>Watch how to get started</h2>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=DsIudnEbD4oYo2UO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## Watch how to use the tracking tool
+<h2>Watch how to use the tracking tool</h2>
