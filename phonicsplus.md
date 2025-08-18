@@ -5,8 +5,10 @@ permalink: /phonicsplustool/
 ---
 
 <h1>Monitor student achievement in decoding and identify explicit teaching & learning opportunities</h1>
-<h3>Aligns with 'Phonics Plus' from DET</h3>
-<h6 style="font-weight: 300">(or any SATPIN sequenced S.S.P.P)</h6>
+<div style="display: flex; align-items: baseline; gap: 10px;">
+  <h3>Aligns with 'Phonics Plus' from DET</h3>
+  <h6 style="font-weight: 300;">(or any SATPIN sequenced S.S.P.P)</h6>
+</div>
 
 <p class="center-text">
   <img src="{{ '/assets/img/phonicsplusbanner.png' | relative_url }}" alt="Phonics Plus Banner" />
