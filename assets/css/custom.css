@@ -168,3 +168,32 @@ h1, h2, h3, h4, h5, h6 {
     height: 60px;
   }
 }
+
+/* Hide the small inline logo by default (when at top of page) */
+.navbar-custom .navbar-brand .navbar-logo {
+  display: none;
+  height: 40px;            /* adjust your size */
+  width: auto;
+  margin-right: 8px;
+  transition: opacity .25s ease;
+  opacity: 0;
+}
+
+/* When the navbar becomes "short" on scroll, show the inline logo */
+.navbar-custom.top-nav-short .navbar-brand .navbar-logo,
+.navbar-custom.top-nav-short-permanent .navbar-brand .navbar-logo {
+  display: inline-block;
+  opacity: 1;
+}
+
+/* Optional: slightly reduce title weight for a calmer look */
+.navbar-custom .navbar-brand span {
+  font-weight: 400;
+}
+
+@media (min-width: 1200px) {
+  .navbar-custom.top-nav-short .navbar-brand .navbar-logo,
+  .navbar-custom.top-nav-short-permanent .navbar-brand .navbar-logo {
+    height: 48px; /* desktop size */
+  }
+}
