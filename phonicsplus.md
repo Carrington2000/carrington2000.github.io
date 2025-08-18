@@ -15,14 +15,16 @@ permalink: /phonicsplustool/
 </p>
 
 <h2>What can you do with this tool?</h2>
-- Instantly see a clear snapshot of each student’s decoding knowledge, saving time on assessment.
-- Confidently track individual progress to inform timely teaching decisions.
-- Stay effortlessly updated on priority students without extra admin work.
-- Pinpoint each learner’s strengths and growth areas to guide targeted instruction.
-- Match students with the most appropriate decodable readers to accelerate progress.
-- Spot gaps early and act quickly with focused intervention strategies.
-- Group or pair students at similar achievement levels to maximise peer learning opportunities.
-- Ensure students have mastered key pre-code high-frequency words for a strong start in reading. 
+<div class="lead">
+  - Instantly see a clear snapshot of each student’s decoding knowledge, saving time on assessment.
+  - Confidently track individual progress to inform timely teaching decisions.
+  - Stay effortlessly updated on priority students without extra admin work.
+  - Pinpoint each learner’s strengths and growth areas to guide targeted instruction.
+  - Match students with the most appropriate decodable readers to accelerate progress.
+  - Spot gaps early and act quickly with focused intervention strategies.
+  - Group or pair students at similar achievement levels to maximise peer learning opportunities.
+  - Ensure students have mastered key pre-code high-frequency words for a strong start in reading. 
+</div>
 
 <h2>Resources</h2>
 <div class="flex-columns" style="display: flex; gap: 20px; text-align: center;">
