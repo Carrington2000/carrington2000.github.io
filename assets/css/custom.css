@@ -111,3 +111,51 @@ a:hover {
 .center-text {
   text-align: center;
 }
+
+
+:root {
+  --header-font: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  --body-font:   'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+/* Beautiful Jekyll uses these variables in many places */
+body { font-family: var(--body-font); }
+
+
+/* Header / Navbar “clean” look */
+.navbar-custom .navbar-brand {
+  font-family: var(--header-font);
+  font-weight: 500;          /* 400–500 feels crisp without shouting */
+  font-size: 1.125rem;       /* keep existing size; tweak if you like */
+  letter-spacing: 0;         /* reduce the “blocky” feel */
+  text-transform: none;      /* remove all-caps if you prefer */
+  margin: 0;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+  font-family: var(--header-font);
+  font-weight: 400;          /* lighter links */
+  letter-spacing: 0.01em;    /* gentle spacing */
+  text-transform: none;      /* or keep uppercase if you like */
+  opacity: 0.9;              /* subtle softness */
+}
+
+.navbar-custom .navbar-nav .nav-link:hover,
+.navbar-custom .navbar-brand:hover {
+  opacity: 1;
+}
+
+
+.navbar-custom .navbar-nav .nav-link {
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 0.06rem;   /* smaller than the default */
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--header-font);
+  font-weight: 600;          /* 500–600 looks modern */
+  line-height: 1.2;
+  letter-spacing: -0.01em;   /* tiny negative tracking tightens big headings */
+}
