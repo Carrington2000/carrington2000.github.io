@@ -22,8 +22,8 @@ permalink: /mathdwnld/
 
 
 <ul class="lead">
-  <li> Note 1: Requires your own account for Ochre Education</li>
-  <li> Note 2: Limited to Maths Review, Slides, Worksheet and Reteach resources</li>
+  <li>Note 1: Requires your own Ochre Education account</li>
+  <li>Note 2: Limited to Maths Daily Review, Lesson Slides & Worksheets</li>
 </ul>
 
 <h2>>Watch how to use the downloader tool</h2>
