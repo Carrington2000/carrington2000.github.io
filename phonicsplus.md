@@ -48,6 +48,15 @@ permalink: /phonicsplustool/
 
 
 <h2>Watch how to get started</h2>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=DsIudnEbD4oYo2UO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="video-embed">
+  <iframe
+    src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=DsIudnEbD4oYo2UO" 
+    title="YouTube video player"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+    loading="lazy">
+  </iframe>
+</div>
 
 <h2>Watch how to use the tracking tool</h2>
