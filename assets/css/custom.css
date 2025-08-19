@@ -303,3 +303,23 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 8px;
   opacity: 1 !important;
 }
+
+
+.video-embed {
+  position: relative;
+  width: 100%;
+  max-width: 900px;   /* optional, or remove */
+  margin: 0 auto;     /* optional center */
+}
+.video-embed::before {
+  content: "";
+  display: block;
+  padding-top: 56.25%; /* 16:9 aspect ratio */
+}
+.video-embed iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
