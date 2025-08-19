@@ -377,7 +377,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-header {
-  text-align: center;
+  text-align: left;
   margin: 80px auto;  /* spacing above/below */
   font-family: 'Inter', sans-serif; /* matches your loaded font */
 }
