@@ -349,11 +349,29 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
 }
 
-@media (max-width: 991px) { /* adjust breakpoint if needed */
-  .navbar-collapse {
+/* Entire collapsed range for navbar-expand-xl */
+@media (max-width: 1199.98px) {
+  /* center the hamburger */
+  .navbar-custom .navbar-toggler {
+    margin: 0 auto;
+    display: block;
+  }
+
+  /* undo any desktop “inward nudge” margins */
+  .navbar-custom .navbar-brand,
+  .navbar-custom .navbar-nav {
+    margin: 0;
+  }
+
+  /* center the opened menu under the brand */
+  .navbar-custom .navbar-collapse {
+    justify-content: center;
     text-align: center;
   }
-  .navbar-toggler {
+  .navbar-custom .navbar-nav {
     margin: 0 auto;
+    align-items: center;
+    flex-direction: column;
+    gap: 6px;
   }
 }
