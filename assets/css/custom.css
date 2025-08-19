@@ -171,7 +171,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Hide the small inline logo by default (when at top of page) */
 .navbar-custom .navbar-brand .navbar-logo {
-  display: none;
   height: 40px;            /* adjust your size */
   width: auto;
   margin-right: 8px;
@@ -179,24 +178,11 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0;
 }
 
-/* When the navbar becomes "short" on scroll, show the inline logo */
-.navbar-custom.top-nav-short .navbar-brand .navbar-logo,
-.navbar-custom.top-nav-short-permanent .navbar-brand .navbar-logo {
-  display: inline-block;
-  opacity: 1;
-}
-
 /* Optional: slightly reduce title weight for a calmer look */
 .navbar-custom .navbar-brand span {
   font-weight: 400;
 }
 
-@media (min-width: 1200px) {
-  .navbar-custom.top-nav-short .navbar-brand .navbar-logo,
-  .navbar-custom.top-nav-short-permanent .navbar-brand .navbar-logo {
-    height: 48px; /* desktop size */
-  }
-}
 
 /* Move logo + title inward */
 .navbar .navbar-brand {
@@ -243,5 +229,69 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     justify-content: center;  /* center brand row */
     width: 100%;
+  }
+}
+
+
+/* Optional: disable transition so it feels static */
+.navbar-custom {
+  transition: none !important;
+}
+
+/* Brand aesthetics (adjust to taste) */
+.navbar-custom .navbar-brand { display: flex; align-items: center; }
+.navbar-custom .navbar-logo { height: 40px; width: auto; margin-right: 8px; }
+.navbar-custom .navbar-title { font-weight: 500; letter-spacing: 0; }
+
+/* Ensure right menu stays right on desktop */
+@media (min-width: 1200px) {
+  .navbar-custom .navbar-nav { margin-left: auto; }
+}
+
+/* Center the collapsed menu under the brand on small screens */
+@media (max-width: 1199px) {
+  .navbar-custom .navbar-collapse { justify-content: center; text-align: center; }
+  .navbar-custom .navbar-nav { margin: 0 auto; align-items: center; flex-direction: column; gap: 6px; }
+}
+
+/* Keep navbar padding constant: no shrink on scroll */
+.navbar-custom,
+.navbar-custom.top-nav-short,
+.navbar-custom.top-nav-short-permanent {
+  padding-top: .9rem !important;
+  padding-bottom: .9rem !important;
+  transition: none !important; /* disable animation */
+}
+
+/* Ensure desktop keeps the same padding too */
+@media (min-width: 1200px) {
+  .navbar-custom,
+  .navbar-custom.top-nav-short,
+  .navbar-custom.top-nav-short-permanent {
+    padding-top: 1.25rem !important;
+    padding-bottom: 1.25rem !important;
+  }
+}
+
+/* Desktop: keep menu on the right */
+@media (min-width: 1200px) {
+  .navbar-custom .navbar-nav { margin-left: auto; }
+}
+
+/* Mobile & tablet (below navbar-expand-xl) */
+@media (max-width: 1199px) {
+  /* Put the hamburger at the far right */
+  .navbar-custom .navbar-toggler { margin-left: auto; }
+
+  /* Center the collapsed menu content under the brand */
+  .navbar-custom .navbar-collapse {
+    justify-content: center;
+    text-align: center;
+  }
+  .navbar-custom .navbar-nav {
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: column;
+    gap: 6px;
   }
 }
