@@ -295,3 +295,11 @@ h1, h2, h3, h4, h5, h6 {
     gap: 6px;
   }
 }
+
+.navbar-custom .navbar-brand .navbar-logo {
+  display: inline-block !important;
+  height: 40px;          /* adjust */
+  width: auto;
+  margin-right: 8px;
+  opacity: 1 !important;
+}
