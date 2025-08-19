@@ -207,3 +207,41 @@ h1, h2, h3, h4, h5, h6 {
 .navbar .navbar-nav {
   margin-right: 20%; /* adjust % to match the brand shift */
 }
+
+/* Your desktop “inward nudge” — already added by you */
+.navbar .navbar-brand { margin-left: 15%; }
+.navbar .navbar-nav   { margin-right: 15%; }
+
+/* Mobile/tablet: stack and center under the brand */
+@media (max-width: 1199px) { /* matches navbar-expand-xl breakpoint */
+  /* undo desktop nudges */
+  .navbar .navbar-brand { margin-left: 0; }
+  .navbar .navbar-nav   { margin-right: 0; }
+
+  /* center the collapsed menu when it opens */
+  .navbar .navbar-collapse {
+    text-align: center;       /* helps center text for safety */
+    justify-content: center;  /* centers flex content */
+  }
+
+  .navbar .navbar-nav {
+    margin: 0 auto;                 /* center the list */
+    align-items: center;             /* center items horizontally */
+    flex-direction: column;          /* stack vertically */
+    gap: 6px;                        /* nice spacing */
+  }
+
+  .navbar .nav-link {
+    padding: 0.5rem 0;               /* slimmer touch targets */
+  }
+}
+
+@media (max-width: 1199px) {
+  .navbar .navbar-brand {
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;  /* center brand row */
+    width: 100%;
+  }
+}
