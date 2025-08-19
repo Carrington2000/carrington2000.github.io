@@ -24,6 +24,8 @@ permalink: /mathdwnld/
 <ul class="lead">
   <li>Note 1: Requires your own Ochre Education account</li>
   <li>Note 2: Limited to Maths Daily Review, Lesson Slides & Worksheets</li>
+  <li>Ochre Education is not associated with the development of this tool. This tool is not endorsed by, affiliated with, or otherwise connected to Ochre Education.</li>
 </ul>
 
 <h2>Watch how to use the downloader tool</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MMViWvReIY8?si=KigsY3m2g25fpUtX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
