@@ -197,3 +197,13 @@ h1, h2, h3, h4, h5, h6 {
     height: 48px; /* desktop size */
   }
 }
+
+/* Move logo + title inward */
+.navbar .navbar-brand {
+  margin-left: 20%;  /* adjust % to taste */
+}
+
+/* Move nav links inward from the right */
+.navbar .navbar-nav {
+  margin-right: 20%; /* adjust % to match the brand shift */
+}
