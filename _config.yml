@@ -293,5 +293,5 @@ plugins:
 
 site-css:
   - "/assets/css/beautifuljekyll.css"
-  - "/assets/css/custom.css?v=4"   # <-- keep last; ?v=4 busts cache
+  - "/assets/css/custom.css?v=5"   # <-- keep last; ?v=5 busts cache
 

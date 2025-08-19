@@ -30,4 +30,13 @@ permalink: /mathdwnld/
 </ul>
 
 <h2>Watch how to use the downloader tool</h2>
-<iframe width="700" height="315" src="https://www.youtube.com/embed/MMViWvReIY8?si=KigsY3m2g25fpUtX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="video-embed">
+  <iframe
+    src="https://www.youtube.com/embed/MMViWvReIY8?si=KigsY3m2g25fpUtX"
+    title="YouTube video player"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+    loading="lazy">
+  </iframe>
+</div>
