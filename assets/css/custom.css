@@ -383,8 +383,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-title {
-  font-size: 4rem;     /* adjust size */
-  font-weight: 700;    /* bold like main titles */
+  font-size: 6rem;     /* adjust size */
+  font-weight: 600;    /* bold like main titles */
   margin-bottom: 10px;
   color: #111;         /* dark grey/black */
 }
