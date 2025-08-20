@@ -9,6 +9,13 @@ permalink: /fandp/
 <h3>A resource to monitor reading achievement using Fountas & Pinnell Benchmark Kit (Version x).</h3>
 <h6>(Not affiliated with Fountas & Pinnell Literacy or Heinemann)</h6>
 
+<div class="flex-columns" style="display: flex; gap: 20px; text-align: center;">
+  <!-- Column 1 -->
+  <div style="flex: 1;">
+    <a href="https://docs.google.com/spreadsheets/d/1_8OpI1wMISifLGRQoAZTdxuTRBWRspQwAzfHRFBXyUA/edit?usp=sharing" class="btn btn-primary" download>Download</a>
+  </div>
+</div>
+
 <div style="text-align:center; margin-top: 16px;">
   <img src="{{ '/assets/img/fandpbanner.png' | relative_url }}" alt="F&P Banner" />
 </div>
