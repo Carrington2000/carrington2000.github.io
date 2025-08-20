@@ -34,7 +34,7 @@ permalink: /fandp/
 <h2>How to use this tracker</h2>
 <div class="video-embed">
   <iframe
-    src="https://youtu.be/0uNHvtxBk0Y?si=C7Y27Fgx3dtT06qD" 
+    src="https://www.youtube.com/watch?v=0uNHvtxBk0Y" 
     title="YouTube video player"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     referrerpolicy="strict-origin-when-cross-origin"
