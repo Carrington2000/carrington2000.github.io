@@ -1,5 +1,8 @@
 ---
 layout: page
+share-title: "Phonics Plus data analysis"
+share-description: "Phonics Plus student tracking and analysis"
+share-img: /assets/img/phonicsplusbanner.png'
 permalink: /phonicsplustool/
 ---
 <div class="hero-header">
