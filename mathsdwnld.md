@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Ochre Maths Downloader
 permalink: /mathdwnld/
 ---
 <div class="hero-header">
