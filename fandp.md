@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Fountas & Pinnell Tracker
 permalink: /fandp/
 ---
 <div class="hero-header">

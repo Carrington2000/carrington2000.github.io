@@ -1,369 +1,104 @@
-/* Base font for entire site */
+/* Base font */
 body {
-  font-family: 'Inter', sans-serif !important; /* add !important */
+  font-family: 'Inter', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.6;
   color: #222;
 }
 
-/* Headings – modern, bold, clean */
+/* Headings */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Inter', sans-serif !important;
-  font-weight: 600;          /* Semi-bold for crisp headings */
-  letter-spacing: -0.02em;   /* Slightly tighter letter spacing */
-  line-height: 1.3;
-  color: #111;               /* Rich black for headings */
+  font-family: var(--header-font);
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: #111;
   margin-top: 1.2em;
   margin-bottom: 0.6em;
 }
 
-/* Lead text – larger intro paragraphs */
+/* Lead text */
 .lead {
-  font-family: 'Inter', sans-serif !important;
   font-size: 1.25rem;
-  font-weight: 400;
   line-height: 1.6;
   color: #333;
 }
 
-/* Optional: links for a cleaner look */
-a {
-  text-decoration: none;
-  color: #0056b3;
-}
-a:hover {
-  text-decoration: underline;
-}
+/* Links */
+a { text-decoration: none; color: #0056b3; }
+a:hover { text-decoration: underline; }
 
-.dropdown-menu {
-  min-width: max-content; /* Fits to the longest menu item */
-  white-space: nowrap;    /* Prevents line breaks */
+/* Dropdown menus */
+.dropdown-menu,
+.navbar-custom .nav-item.dropdown .dropdown-menu {
+  width: auto;
+  min-width: max-content;
+  white-space: nowrap;
+  word-break: normal;
 }
-.navbar-nav .nav-link {
+.navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {
   white-space: nowrap;
 }
 
-
-/* Keep dropdown items on one line and let the menu widen to fit */
-.navbar-custom .nav-item.dropdown .dropdown-menu {
-  width: auto !important;
-  min-width: max-content !important; /* fit to longest item */
-  white-space: nowrap !important;
-  word-break: normal !important;
-}
-
-/* Prevent wrapping inside each item */
-.navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {
-  white-space: nowrap !important;
-}
-
-/* Allow navbar container to accommodate wider dropdowns */
-@media (min-width: 1200px) {
-  .navbar-custom .container,
-  .navbar-custom .container-fluid {
-    max-width: none !important; /* let navbar stretch wider */
-  }
-}
-
-@media (min-width: 1200px) {
-  .navbar-custom .nav-item.dropdown .dropdown-menu {
-    width: auto !important;
-    min-width: max-content !important;
-    white-space: nowrap !important;
-    word-break: normal !important;
-  }
-  .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {
-    white-space: nowrap !important;
-  }
-}
-
-/* Universal responsive video wrapper */
-.video-embed {
-  position: relative;
-  width: 100%;
-  max-width: 100%;
-  aspect-ratio: 16 / 9;          /* modern browsers */
-  background: #000;               /* avoids white flash before load */
-  overflow: hidden;
-}
-
-/* Fallback for very old browsers with no aspect-ratio support */
-@supports not (aspect-ratio: 16 / 9) {
-  .video-embed { height: 0; padding-bottom: 56.25%; }
-}
-
-.video-embed iframe {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
-}
-
-
-@media (max-width: 768px) {
-  .flex-columns {
-    flex-direction: column;
-  }
-}
-
-.center-text {
-  text-align: center;
-}
-
-
+/* Navbar base */
 :root {
   --header-font: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-  --body-font:   'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  --body-font: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
 }
-
-/* Beautiful Jekyll uses these variables in many places */
 body { font-family: var(--body-font); }
 
-
-/* Header / Navbar “clean” look */
+.navbar-custom {
+  transition: none;
+  padding-top: .9rem;
+  padding-bottom: .9rem;
+}
 .navbar-custom .navbar-brand {
   font-family: var(--header-font);
-  font-weight: 600;          /* 400–500 feels crisp without shouting */
-  font-size: 2.188rem;       /* keep existing size; tweak if you like */
-  letter-spacing: 0;         /* reduce the “blocky” feel */
-  text-transform: none;      /* remove all-caps if you prefer */
-  margin: 0;
-}
-
-.navbar-custom .navbar-nav .nav-link {
-  font-family: var(--header-font);
-  font-weight: 400;          /* lighter links */
-  font-size: 1.500rem; 
-  letter-spacing: 0.01em;    /* gentle spacing */
-  text-transform: none;      /* or keep uppercase if you like */
-  opacity: 0.9;              /* subtle softness */
-}
-
-.navbar-custom .navbar-nav .nav-link:hover,
-.navbar-custom .navbar-brand:hover {
-  opacity: 1;
-}
-
-
-.navbar-custom .navbar-nav .nav-link {
+  font-weight: 600;
+  font-size: 2.188rem;
   text-transform: none;
-  font-weight: 400;
-  letter-spacing: 0.06rem;   /* smaller than the default */
+  margin: 0;
+  display: flex;
+  align-items: center;
 }
-
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--header-font);
-  font-weight: 600;          /* 500–600 looks modern */
-  line-height: 1.2;
-  letter-spacing: -0.01em;   /* tiny negative tracking tightens big headings */
-}
-
-.navbar-logo {
-  height: 40px;
-
-  @media (min-width: 992px) {
-    height: 60px;
-  }
-}
-
-/* Hide the small inline logo by default (when at top of page) */
-.navbar-custom .navbar-brand .navbar-logo {
-  height: 40px;            /* adjust your size */
-  width: auto;
-  margin-right: 8px;
-  transition: opacity .25s ease;
-  opacity: 0;
-}
-
-/* Optional: slightly reduce title weight for a calmer look */
-.navbar-custom .navbar-brand span {
-  font-weight: 400;
-}
-
-
-/* Move logo + title inward */
-.navbar .navbar-brand {
-  margin-left: 20%;  /* adjust % to taste */
-}
-
-/* Move nav links inward from the right */
-.navbar .navbar-nav {
-  margin-right: 20%; /* adjust % to match the brand shift */
-}
-
-/* Your desktop “inward nudge” — already added by you */
-.navbar .navbar-brand { margin-left: 15%; }
-.navbar .navbar-nav   { margin-right: 15%; }
-
-/* Mobile/tablet: stack and center under the brand */
-@media (max-width: 1199px) { /* matches navbar-expand-xl breakpoint */
-  /* undo desktop nudges */
-  .navbar .navbar-brand { margin-left: 0; }
-  .navbar .navbar-nav   { margin-right: 0; }
-
-  /* center the collapsed menu when it opens */
-  .navbar .navbar-collapse {
-    text-align: center;       /* helps center text for safety */
-    justify-content: center;  /* centers flex content */
-  }
-
-  .navbar .navbar-nav {
-    margin: 0 auto;                 /* center the list */
-    align-items: center;             /* center items horizontally */
-    flex-direction: column;          /* stack vertically */
-    gap: 6px;                        /* nice spacing */
-  }
-
-  .navbar .nav-link {
-    padding: 0.5rem 0;               /* slimmer touch targets */
-  }
-}
-
-@media (max-width: 1199px) {
-  .navbar .navbar-brand {
-    margin-left: 0;
-    margin-right: 0;
-    display: flex;
-    justify-content: center;  /* center brand row */
-    width: 100%;
-  }
-}
-
-
-/* Optional: disable transition so it feels static */
-.navbar-custom {
-  transition: none !important;
-}
-
-/* Brand aesthetics (adjust to taste) */
-.navbar-custom .navbar-brand { display: flex; align-items: center; }
+.navbar-custom .navbar-brand span { font-weight: 400; }
 .navbar-custom .navbar-logo { height: 40px; width: auto; margin-right: 8px; }
-.navbar-custom .navbar-title { font-weight: 500; letter-spacing: 0; }
+.navbar-custom .navbar-title { font-weight: 500; }
 
-/* Ensure right menu stays right on desktop */
+/* Navbar links */
+.navbar-custom .navbar-nav .nav-link {
+  font-family: var(--header-font);
+  font-weight: 400;
+  font-size: 1.5rem;
+  letter-spacing: 0.01em;
+  text-transform: none;
+  opacity: 0.9;
+}
+.navbar-custom .navbar-nav .nav-link:hover,
+.navbar-custom .navbar-brand:hover { opacity: 1; }
+
+/* Desktop layout */
 @media (min-width: 1200px) {
+  .navbar-custom .container,
+  .navbar-custom .container-fluid { max-width: none; }
   .navbar-custom .navbar-nav { margin-left: auto; }
-}
-
-/* Center the collapsed menu under the brand on small screens */
-@media (max-width: 1199px) {
-  .navbar-custom .navbar-collapse { justify-content: center; text-align: center; }
-  .navbar-custom .navbar-nav { margin: 0 auto; align-items: center; flex-direction: column; gap: 6px; }
-}
-
-/* Keep navbar padding constant: no shrink on scroll */
-.navbar-custom,
-.navbar-custom.top-nav-short,
-.navbar-custom.top-nav-short-permanent {
-  padding-top: .9rem !important;
-  padding-bottom: .9rem !important;
-  transition: none !important; /* disable animation */
-}
-
-/* Ensure desktop keeps the same padding too */
-@media (min-width: 1200px) {
   .navbar-custom,
   .navbar-custom.top-nav-short,
   .navbar-custom.top-nav-short-permanent {
-    padding-top: 1.25rem !important;
-    padding-bottom: 1.25rem !important;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
   }
 }
 
-/* Desktop: keep menu on the right */
-@media (min-width: 1200px) {
-  .navbar-custom .navbar-nav { margin-left: auto; }
-}
-
-/* Mobile & tablet (below navbar-expand-xl) */
-@media (max-width: 1199px) {
-  /* Put the hamburger at the far right */
-  .navbar-custom .navbar-toggler { margin-left: auto; }
-
-  /* Center the collapsed menu content under the brand */
-  .navbar-custom .navbar-collapse {
-    justify-content: center;
-    text-align: center;
-  }
-  .navbar-custom .navbar-nav {
-    margin: 0 auto;
-    align-items: center;
-    flex-direction: column;
-    gap: 6px;
-  }
-}
-
-.navbar-custom .navbar-brand .navbar-logo {
-  display: inline-block !important;
-  height: 40px;          /* adjust */
-  width: auto;
-  margin-right: 8px;
-  opacity: 1 !important;
-}
-
-
-.video-embed {
-  position: relative;
-  width: 100%;
-  max-width: 900px;   /* optional, or remove */
-  margin: 0 auto;     /* optional center */
-}
-.video-embed::before {
-  content: "";
-  display: block;
-  padding-top: 56.25%; /* 16:9 aspect ratio */
-}
-.video-embed iframe {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
-}
-
-/* Responsive iframe wrapper */
-.video-embed {
-  position: relative;
-  width: 100%;
-  max-width: 900px;             /* optional; remove if you want full width */
-  margin: 0 auto;               /* center the block */
-  aspect-ratio: 16 / 9;         /* modern browsers */
-}
-
-/* Fallback for browsers without aspect-ratio */
-.video-embed::before {
-  content: "";
-  display: block;
-  padding-top: 56.25%;          /* 16:9 */
-}
-
-.video-embed iframe {
-  position: absolute;
-  inset: 0;
-  width: 100% !important;       /* override any inline width */
-  height: 100% !important;      /* override any inline height */
-  border: 0;
-  display: block;
-}
-
-/* Entire collapsed range for navbar-expand-xl */
+/* Mobile layout */
 @media (max-width: 1199.98px) {
-  /* center the hamburger */
-  .navbar-custom .navbar-toggler {
+  .navbar-custom .navbar-toggler { margin-left: auto; }
+  .navbar-custom .navbar-brand {
     margin: 0 auto;
-    display: block;
+    justify-content: center;
+    width: 100%;
   }
-
-  /* undo any desktop “inward nudge” margins */
-  .navbar-custom .navbar-brand,
-  .navbar-custom .navbar-nav {
-    margin: 0;
-  }
-
-  /* center the opened menu under the brand */
   .navbar-custom .navbar-collapse {
     justify-content: center;
     text-align: center;
@@ -374,30 +109,29 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: column;
     gap: 6px;
   }
+  .navbar .nav-link { padding: 0.5rem 0; }
 }
 
-.hero-header {
-  text-align: left;
-  margin: 80px auto;  /* spacing above/below */
-  font-family: 'Inter', sans-serif; /* matches your loaded font */
-}
+/* Hero section */
+.hero-header { text-align: left; margin: 80px auto; font-family: 'Inter', sans-serif; }
+.hero-title { font-size: 5rem; font-weight: 500; margin-bottom: 10px; color: #111; }
+.hero-subtitle { font-size: 1.7rem; font-weight: 300; color: #555; }
 
-.hero-title {
-  font-size: 5rem;     /* adjust size */
-  font-weight: 500;    /* bold like main titles */
-  margin-bottom: 10px;
-  color: #111;         /* dark grey/black */
-}
+/* Center helper */
+.center-text { text-align: center; }
+.center-image { display: block; margin: 0 auto; }
 
-.hero-subtitle {
-  font-size: 1.7rem;   /* smaller than title */
-  font-weight: 380;    /* normal weight */
-  color: #555;         /* lighter grey */
+/* Video embed */
+.video-embed {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  aspect-ratio: 16 / 9;
+  background: #000;
+  overflow: hidden;
 }
-
-
-.center-image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+.video-embed iframe {
+  position: absolute;
+  inset: 0;
+  width: 1
