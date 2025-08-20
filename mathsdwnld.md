@@ -3,7 +3,9 @@ layout: page
 title: "Ochre Maths Downloader"
 permalink: /mathdwnld/
 ---
-
+<div class="hero-header">
+  <h1 class="hero-title">Ochre Maths Downloader</h1>
+</div>
 <h2>Batch download Maths resources from Ochre Education</h2>
 <h3>Download multiple units as local PowerPoint files in a single click*</h3> 
 
@@ -15,7 +17,7 @@ permalink: /mathdwnld/
 </div>
 
 <div>
-    <p align="center">
+    <p class="center-image">
     <img src="{{ '/assets/img/mthsdwnld.png' | relative_url }}" alt="Maths Downloader" />
     </p>
   </div>
