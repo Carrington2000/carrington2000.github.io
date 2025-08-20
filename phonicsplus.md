@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Phonics Plus Dashboard
 permalink: /phonicsplustool/
 ---
 <div class="hero-header">
