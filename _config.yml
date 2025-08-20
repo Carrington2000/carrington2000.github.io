@@ -31,9 +31,9 @@ navbar-links:
   Literacy:
     - Phonics Plus Dashboard: "/phonicsplustool/"
     - Fountas & Pinnell Tracker: "/fandp/"
-    - NAPLAN Writing Moderation: "/writingmoderation/"
-    - South Australian Spelling Test Analysis: "/sast/"
-    - Spelling Test Tracking: "/stt/"
+    # - NAPLAN Writing Moderation: "/writingmoderation/"
+    # - South Australian Spelling Test Analysis: "/sast/"
+    # - Spelling Test Tracking: "/stt/"
   Numeracy:
     - OCHRE Maths Bulk Downloader: "/mathdwnld/"
 
