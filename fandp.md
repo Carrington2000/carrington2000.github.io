@@ -7,7 +7,6 @@ permalink: /fandp/
 </div>
 <h1>Fountas & Pinnell Benchmark Tracking</h1>
 <h3>A resource to monitor reading achievement using Fountas & Pinnell Benchmark Kit (Version x).</h3>
-<h6>(Not affiliated with Fountas & Pinnell Literacy or Heinemann)</h6>
 
 <div class="flex-columns" style="display: flex; gap: 20px; text-align: center;">
   <!-- Column 1 -->
