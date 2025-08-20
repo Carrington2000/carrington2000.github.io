@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://carrington2000.github.io/sitemap.xml
+
+# Explicitly allow major AI crawlers (tweak to your preference)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
