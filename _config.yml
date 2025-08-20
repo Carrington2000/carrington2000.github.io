@@ -10,6 +10,7 @@
 ############################
 
 
+
 # Site settings
 url: "https://carrington2000.github.io"
 baseurl: ""   # Leave empty for a user site (not a project site)
@@ -21,7 +22,14 @@ title: "Aaron Johnson"
 title-img: /assets/img/logo.png
 
 # Your name to show in the footer
-author: "Contact: aaron.johnson@education.vic.gov.au"
+author: "contact: aaron.johnson@education.vic.gov.au"
+
+
+description: "Free tools to save teachers time and generate actionable data"
+keywords: "teaching, numeracy, curriculum, school data, assessment, Phonics Plus, Science of Reading, Ochre Maths, Ochre Education, Ochre"
+author: "Aaron Johnson"
+
+
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -177,13 +185,13 @@ footer-hover-col: "#0085A1"
 #################################
 
 # Fill in your Google Analytics tag ID (or "Measurement ID") to track your website usage
-#gtag: "G-XXXXXXXXXX"
+gtag: "G-W6XRPPFHJN"
 
 # Fill in your Cloudflare Analytics beacon token to track your website using Cloudflare Analytics
-#cloudflare_analytics: ""
+cloudflare_analytics: ""
 
 # Google Tag Manager ID
-#gtm: ""
+gtm: ""
 
 # Matomo (aka Piwik) Web statistics
 # Uncomment the following section to enable Matomo. The opt-out parameter controls

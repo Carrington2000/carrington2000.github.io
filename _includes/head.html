@@ -2,6 +2,20 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ page.title }}",
+  "description": "{{ page.share-description }}",
+  "image": "{{ page.share-img | absolute_url }}",
+  "author": "{{ site.author }}",
+  "datePublished": "{{ page.date | date_to_xmlschema }}"
+}
+</script>
+
+
+
   {% capture pagetitle %}
     {%- if page.share-title -%}
       {{ page.share-title | strip_html | xml_escape }}
