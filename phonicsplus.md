@@ -13,6 +13,13 @@ permalink: /phonicsplustool/
   <h3>Aligns with 'Phonics Plus' from DET</h3>
   <h6 style="font-weight: 300;">(or any SATPIN sequenced S.S.P.P)</h6>
 </div>
+<div class="flex-columns" style="display: flex; gap: 20px; text-align: center;">
+  <!-- Column 1 -->
+  <div style="flex: 1;">
+    <a href="https://docs.google.com/spreadsheets/d/1InvSv1U73Y0mxFmX_di83Bb1_et6rlBpkzN4XGEIlpQ/edit?usp=sharing" class="btn btn-primary" download>Download</a>
+  </div>
+</div>
+
 
 <p class="center-text">
   <img src="{{ '/assets/img/phonicsplusbanner.png' | relative_url }}" alt="Phonics Plus Banner" />
