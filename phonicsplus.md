@@ -37,7 +37,7 @@ permalink: /phonicsplustool/
     <h3>Word List</h3>
     <img src="{{ site.baseurl }}/assets/img/wordlist.png" alt="Word List" style="width: 100%; height: auto; max-width: 400px;">
     <br>
-   <a href="{{ '/assets/files/wordlist.pdf' | relative_url }}" class="btn btn-primary" download>Download</a>
+   <a href="https://docs.google.com/presentation/d/1e758EAlGGEDwpM00d1RHXDyDBIahm2bJ/edit?usp=sharing&ouid=112539120221518128339&rtpof=true&sd=true" class="btn btn-primary" download>Download</a>
   </div>
 
   <!-- Column 2 -->
@@ -45,7 +45,7 @@ permalink: /phonicsplustool/
     <h3>Flashcards</h3>
     <img src="{{ site.baseurl }}/assets/img/flashcards.png" alt="Flashcards" style="width: 100%; height: auto; max-width: 400px;">
     <br>
-    <a href="{{ '/assets/files/flashcards.pdf' | relative_url }}" class="btn btn-primary" download>Download</a>
+    <a href="https://docs.google.com/presentation/d/1vrRJf9vE7uOIpofzAYTm8rdfZwzhRYnj/edit?usp=sharing&ouid=112539120221518128339&rtpof=true&sd=true" class="btn btn-primary" download>Download</a>
   </div>
 </div>
 
