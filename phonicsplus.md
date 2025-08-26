@@ -61,7 +61,7 @@ permalink: /phonicsplustool/
 <h2>How to get started</h2>
 <div class="video-embed">
   <iframe
-    src="https://youtu.be/Fz9DdXV-gFk" 
+    src="https://www.youtube.com/embed/Fz9DdXV-gFk" 
     title="YouTube video player"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     referrerpolicy="strict-origin-when-cross-origin"
@@ -73,7 +73,7 @@ permalink: /phonicsplustool/
 <h2>How might educators use this tool?</h2>
 <div class="video-embed">
   <iframe
-    src="https://youtu.be/zZYT1Wr2Qo8" 
+    src="https://www.youtube.com/embed/zZYT1Wr2Qo8" 
     title="YouTube video player"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     referrerpolicy="strict-origin-when-cross-origin"
