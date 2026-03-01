@@ -19,7 +19,6 @@ permalink: /phonicsplusapp/
         Download
     </a>
 
-</div>
   </div>
 </div>
 
