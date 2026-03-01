@@ -36,7 +36,8 @@ keywords: "teaching, numeracy, curriculum, school data, assessment, Phonics Plus
 
 navbar-links:
   Literacy:
-    - Phonics Plus Dashboard: "/phonicsplustool/"
+    - Phonics Track Spreadsheet Dashboard: "/phonicsplustool/"
+    - Phonics Track App: "/phonicsplusapp/"
     - Fountas & Pinnell Tracker: "/fandp/"
     # - NAPLAN Writing Moderation: "/writingmoderation/"
     # - South Australian Spelling Test Analysis: "/sast/"
