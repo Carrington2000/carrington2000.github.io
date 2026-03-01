@@ -8,7 +8,7 @@ permalink: /phonicsplussheet/
 <div class="hero-header">
   <h1 class="hero-title">Phonics Track Dashboard</h1>
 </div>
-<h1 style="font-style: italic;">Note: This is the spreadsheet version of this tool</h1>
+<h2 style="font-style: italic;">The spreadsheet version of this tool</h2>
 <h1>Monitor student achievement in decoding and identify explicit teaching & learning opportunities</h1>
 <div style="display: flex; align-items: baseline; gap: 10px;">
   <h3>Aligns with 'Phonics Plus' from DET</h3>
