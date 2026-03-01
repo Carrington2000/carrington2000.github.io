@@ -28,11 +28,11 @@ permalink: /phonicsplusapp/
 </p>
 
 <h2>Description</h2>
-<div>A free tool to monitor student achievement in decoding and identify explicit teaching & learning opportunities.
+<p>A free tool to monitor student achievement in decoding and identify explicit teaching & learning opportunities.</p>
 
-A 100% local, offline-capable reading assessment platform for primary school teachers to track student mastery of phonics skills and high-frequency words. All data is stored locally. No external APIs or internet connection required.
+<p>A 100% local, offline-capable reading assessment platform for primary school teachers to track student mastery of phonics skills and high-frequency words. All data is stored locally. No external APIs or internet connection required.</p>
 
-Designed for teachers, E.S, tutors, and parent, to assess, monitor and track progress in decoding in an efficient and simple system.
+<p>Designed for teachers, E.S, tutors, and parents, to assess, monitor and track progress in decoding in an efficient and simple system.</p>
 
 <h2>What can you do with this tool?</h2>
 <ul class="lead">
