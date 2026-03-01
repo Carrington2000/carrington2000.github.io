@@ -3,7 +3,7 @@ layout: page
 share-title: "Phonics Plus data analysis"
 share-description: "Phonics Plus student tracking and analysis"
 share-img: /assets/img/phonicsplusbanner.png'
-permalink: /phonicsplustool/
+permalink: /phonicsplussheet/
 ---
 <div class="hero-header">
   <h1 class="hero-title">Phonics Track Dashboard</h1>
