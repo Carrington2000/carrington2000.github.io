@@ -48,23 +48,11 @@ permalink: /phonicsplusapp/
 
 <h3>View full source on <a href="https://github.com/Carrington2000/phonicstracker" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: #007bff;">Github</a></h3>
 
-<h2>How to get started</h2>
-<div class="video-embed">
-  <iframe
-    src="https://www.youtube.com/embed/Fz9DdXV-gFk?si=Maiw8tfIgs5z-gVe" 
-    title="YouTube video player"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    referrerpolicy="strict-origin-when-cross-origin"
-    allowfullscreen
-    loading="lazy">
-  </iframe>
-</div>
-
 <h2>How might educators use this tool?</h2>
 <div class="video-embed">
   <iframe
-    src="https://www.youtube.com/embed/zZYT1Wr2Qo8?si=Si1hOFCZFrBgnBN1" 
-    title="YouTube video player"
+    src="" 
+    title="Video Comming Soon"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     referrerpolicy="strict-origin-when-cross-origin"
     allowfullscreen
