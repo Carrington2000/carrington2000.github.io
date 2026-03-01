@@ -10,8 +10,7 @@ permalink: /phonicsplusapp/
 </div>
 <h1>Monitor student achievement in decoding and identify explicit teaching & learning opportunities</h1>
 <div style="display: flex; align-items: baseline; gap: 10px;">
-  <h3>Aligns with 'Phonics Plus' from DET</h3>
-  <h6 style="font-weight: 300;">(or any SATPIN sequenced S.S.P.P)</h6>
+  <h3>Aligns with 'Phonics Plus' from DET and any other commerical SATPIN sequenced structured synthetic phonics program.</h3>
 </div>
 <div class="flex-columns" style="display: flex; gap: 20px; text-align: center;">
   <!-- Column 1 -->
@@ -29,6 +28,13 @@ permalink: /phonicsplusapp/
   <img src="{{ '/assets/img/phonicsplusapp.png' | relative_url }}" alt="Phonics Plus App" />
 </p>
 
+<h2>Description</h2>
+<div>A free tool to monitor student achievement in decoding and identify explicit teaching & learning opportunities.
+
+A 100% local, offline-capable reading assessment platform for primary school teachers to track student mastery of phonics skills and high-frequency words. All data is stored locally. No external APIs or internet connection required.
+
+Designed for teachers, E.S, tutors, and parent, to assess, monitor and track progress in decoding in an efficient and simple system.
+
 <h2>What can you do with this tool?</h2>
 <ul class="lead">
     <li>Instantly see a clear snapshot of each student’s decoding knowledge, saving time on assessment.</li>
@@ -41,7 +47,7 @@ permalink: /phonicsplusapp/
     <li>Ensure students have mastered key pre-code high-frequency words for a strong start in reading.</li>
 </ul>
 
-<h3>View full source on <a href="https://github.com/Carrington2000/carrington2000.github.io.git" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: #007bff;">Github</a></h3>
+<h3>View full source on <a href="https://github.com/Carrington2000/phonicstracker" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: #007bff;">Github</a></h3>
 
 <h2>How to get started</h2>
 <div class="video-embed">
