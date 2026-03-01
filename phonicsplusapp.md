@@ -1,7 +1,7 @@
 ---
 layout: page
-share-title: "Phonics Plus data analysis"
-share-description: "Phonics Plus student tracking and analysis"
+share-title: "Phonics Track App"
+share-description: "Phonics Track App for student tracking and analysis"
 share-img: /assets/img/phonicsplusapp.png'
 permalink: /phonicsplusapp/
 ---
