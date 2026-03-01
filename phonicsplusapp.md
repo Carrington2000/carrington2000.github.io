@@ -16,7 +16,11 @@ permalink: /phonicsplusapp/
 <div class="flex-columns" style="display: flex; gap: 20px; text-align: center;">
   <!-- Column 1 -->
   <div style="flex: 1;">
-        <a href="{{ '/assets/files/Phonics Track.exe' | relative_url }}" class="btn btn-primary" download>Download</a>
+    <a href="https://github.com/Carrington2000/phonicstracker/releases/download/phonicstrack/Phonics.Track.exe" class="btn btn-primary" download>
+        Download
+    </a>
+
+</div>
   </div>
 </div>
 
@@ -36,6 +40,8 @@ permalink: /phonicsplusapp/
     <li>Group or pair students at similar achievement levels to maximise peer learning opportunities.</li>
     <li>Ensure students have mastered key pre-code high-frequency words for a strong start in reading.</li>
 </ul>
+
+<h3>View full source on <a href="https://github.com/Carrington2000/carrington2000.github.io.git" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: #007bff;">Github</a></h3>
 
 <h2>How to get started</h2>
 <div class="video-embed">
